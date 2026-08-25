@@ -63,3 +63,34 @@ section{
     padding: 10x;
     transition: border-color .18s ease, transform .18s ease, background-color .25s ease;
 }
+
+
+.specs-table{
+  border-collapse: collapse; 
+  width: 100%;             
+  font-family: sans-serif;  
+  min-width: 400px;          
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  border:1px solid #dddddd;
+}
+
+.specs-table th, 
+.specs-table td {
+  padding: 12px 15px;        
+  text-align: left;'
+   border-left: 1px solid #dddddd;  
+  border-right: 1px solid #dddddd;
+  border-top: none;               
+  border-bottom: none; 
+
+}
+.specs-table thead tr {
+  background-color: gray;
+  color: #ffffff;            
+  font-weight: bold;         
+}
+
+
+.specs-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
